@@ -18,11 +18,12 @@ if($age >10 && $salary > 60000){
 // if OR
 
 // Ternary if
-echo $age < 15?'Young <br>': 'Old <br>';
+echo $age < 15? 'Young <br>': 'Old <br>';
 // Short ternary
 
 // Null coalescing operator
-
+$id=$_GET['id'] ?? null;
+// if id exists otherwise take null;
 // switch
 $userRole ='adminw';
 switch($userRole){
